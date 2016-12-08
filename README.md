@@ -7,11 +7,11 @@ Pre requirement:
 
 ###To run test project:
 1. Create symlink `lib_lightgbm.so` -> `/usr/lib/lib_lightgbm.so` so linker can find the library
-```bash
+...```bash
 sudo ln -s {your path}/lib_lightgbm.so /usr/lib/lib_lightgbm.so
 ```
 2. Compile native code run in project directory
-```bash
+...```bash
 mkdir build; cd build
 cmake ..
 make -j
